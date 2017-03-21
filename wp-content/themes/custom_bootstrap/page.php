@@ -6,15 +6,18 @@
  
 <!-- CONTENT -->
        
-  <div class="col-sm-12 blog-main">
+  <div class="col-sm-offset-2 col-sm-8">
+  
+  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+  
+    <div class="single_page">
+      <h2 class="single_page_title"><?php the_title(); ?></h2>
 
-<?php
-  if (have_posts() ): while (have_posts() ) : the_post();
-          
-    get_template_part('content', get_post_format() );
-        
-  endwhile; endif;
-?>
+      <?php the_content(); ?>
+      
+      <?php endwhile; endif; ?>
+
+    </div>
 
   </div><!-- / END CONTENT -->
 

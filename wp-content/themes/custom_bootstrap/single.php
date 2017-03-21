@@ -6,7 +6,7 @@
  
 <!-- CONTENT -->
        
-  <div class="col-sm-12 blog-main">
+  <div class="col-sm-offset-2 col-sm-8">
   
 <?php
   if (have_posts() ): while (have_posts() ) : the_post();
