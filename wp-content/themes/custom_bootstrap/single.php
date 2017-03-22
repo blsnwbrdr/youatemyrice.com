@@ -2,7 +2,7 @@
 
 <!-- MAIN SECTION -->
 
-<div class="row">
+<div class="row mar_b_75">
  
 <!-- CONTENT -->
        

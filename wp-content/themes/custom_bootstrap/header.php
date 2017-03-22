@@ -8,15 +8,17 @@
 
   </head>
 
-<body>
+<body class="fade_in">
  
 <!-- BANNER -->
 
   <div id="banner">
     <div class="banner_overlay">
       <div class="banner_container">
-        <h1 class="blog_title"><a href="<?php bloginfo( 'wpurl' ); ?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-        <p class="blog_desc"><?php echo get_bloginfo( 'description' ); ?></p>
+        <h1 class="blog_title animated lightSpeedIn">
+          <a href="<?php bloginfo( 'wpurl' ); ?>"><?php echo get_bloginfo( 'name' ); ?></a>
+        </h1>
+        <p class="blog_desc animated lightSpeedIn"><?php echo get_bloginfo( 'description' ); ?></p>
       </div>
     </div>
   </div>

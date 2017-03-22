@@ -27,7 +27,10 @@
 <!-- / END FOOTER SIDEBARS -->
    
     <div class="end_footer">
-      designed by <a href="http://brandonsco.de" target="_blank">brandons<span>CO.DE</span></a>
+      <h1><a href="<?php bloginfo( 'wpurl' ); ?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+      <p class="blog_desc"><?php echo get_bloginfo( 'description' ); ?></p>
+      <br><br><br>
+      <p>designed by <a class="brandon" href="http://brandonsco.de" target="_blank">brandons<span>CO.DE</span></a></p>
     </div>
     
   </footer><!-- / END FOOTER -->
