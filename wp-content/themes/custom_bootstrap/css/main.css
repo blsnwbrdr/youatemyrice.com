@@ -103,8 +103,6 @@ img {
   z-index: 999;
   border-bottom: 1px solid #555555;  
   border-top: 1px solid #555555;  
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;  
 }
 #navbar.navbar-default {
   background-color: #FFFFFF;
@@ -138,12 +136,13 @@ img {
 }
 #navbar.stuck {
   background-color: #FFFFFF;
-  border-bottom: 1px solid #555555;  
+/*  border-bottom: 1px solid #555555;  */
+  box-shadow: 3px 3px rgba(193,193,193,0.20);  
   position: fixed;
   top: 0;
   width: 100%;
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;  
+  -webkit-transition: box-shadow .3s linear;
+  transition: box-shadow .3s linear;  
 }
 #navbar.stuck #nav_collapse {
   border: none;
@@ -341,6 +340,8 @@ img {
   #navbar #nav_collapse {
     border-top: 1px solid #555555;
     border-bottom: 1px solid #555555;
+/*    -webkit-transition: border 1s linear;*/
+/*    transition: border 1s linear;    */
   }
   #navbar ul {
     padding: 0;

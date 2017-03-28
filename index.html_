@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>youatemyrice.com</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="body" id="b01">
+<img class="image" id="i01" src="yamr_logo.png" width="50%" alt=""/>
+</body>
+</html>
